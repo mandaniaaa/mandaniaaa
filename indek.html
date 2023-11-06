@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <tittle>Welcome to my page !</tittle>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Contoh Form</legend>
+
+        <div>
+          <label>Nama: </label>
+          <input type="text" name="nama" />
+        </div>
+
+        <div>
+          <p>Jenis Kelamin:</p>
+          <input type="radio" name="jenis_kelamin" value="laki-laki" checked />
+          <label>Laki - Laki</label>
+          <input type="radio" name="jenis_kelamin" value="perempuan" />
+          <label>Perempuan</label>
+        </div>
+
+        <div>
+          <p>Bidang yang dikuasai:</p>
+          <input type="checkbox" name="web" /> Web
+          <input type="checkbox" name="mobile" /> mobile
+          <input type="checkbox" name="networking" /> networking
+          <input type="checkbox" name="design" /> Design
+        </div>
+
+        <div>
+          <p>Mobil:</p>
+          <select name="mobil">
+            <option value="Inova">Inova</option>
+            <option value="avanza">Avanza</option>
+            <option value="Mercedes">Mercedes</option>
+          </select>
+        </div>
+
+        <div>
+          <p>Ceritakan pengalaman anda:</p>
+          <textarea
+            placeholder="Tulis Jawaban Anda Disini"
+            rows="10"
+            cols="60"
+            name="pengalaman"
+          ></textarea>
+        </div>
+
+        <input type="submit" value="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
